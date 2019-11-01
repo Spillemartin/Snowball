@@ -19,8 +19,6 @@ body {
     width: 100%;
     background-color: #555;
     overflow: auto;
-    /*display: flex;
-    flex-direction: row;*/
 }
 
 .navbar a {
@@ -62,45 +60,20 @@ body {
     background-color: #f1f1f1;
     padding: 20px;
 }
-    
-.btn {
-    background-color: #555;
-    color: white;
-    padding: 12px;
-    font-size: 17px;
-    border: none;
-    width: 100%;
-    float:left;
-    text-align: center;
+
+.faq{
+    text-align: left;
+    padding: 14px;
 }
 
-.menu {
-    position: relative;
-    display: inline-block;
-    width: 33.33%;
+.faqspørsmål{
+    font-size: 20px;
 }
 
-.menucontent {
-    display: none;
-    position: absolute;
-    z-index: 1;
-    min-width: 100%;
-    float:left;
+.faqsvar{
+    margin-left: 3%;
 }
 
-.menucontent a {
-    color:white;
-    padding: 10px 0px;
-    text-decoration: none;
-    display: block;
-    float:left;
-    width: 33.33%;
-}
-
-.menu:hover .menucontent {
-    display: block;
-}
-
-.menu:hover .btn:hover {
-    background-color: black;
+.studentforeningoversikt{
+    float: right;
 }
