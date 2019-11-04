@@ -72,12 +72,15 @@ body {
     width: 100%;
     float:left;
     text-align: center;
+    overflow: hidden;
 }
+
 
 .menu {
     position: relative;
     display: inline-block;
     width: 33.33%;
+    overflow: hidden;
 }
 
 .menucontent {
@@ -86,21 +89,26 @@ body {
     z-index: 1;
     min-width: 100%;
     float:left;
+    overflow: hidden;
 }
 
 .menucontent a {
     color:white;
-    padding: 10px 0px;
+    padding: 12px;
+    font-size: 17px;
     text-decoration: none;
     display: block;
     float:left;
     width: 33.33%;
+    overflow: hidden;
 }
 
 .menu:hover .menucontent {
     display: block;
+    overflow: hidden;
 }
 
 .menu:hover .btn:hover {
     background-color: black;
+    overflow: hidden;
 }
