@@ -69,13 +69,15 @@ body {
 }
 
 .btn a{
-    text-align: center;
+    width: 100%;
+    float: left;
 }
     
 .dropdown {
     float: left;
     overflow: hidden;
     width: 33.33%;
+
 }
 
 
@@ -83,7 +85,7 @@ body {
     font-size: 17px;
     border: none;
     outline: none;
-    width:100%;
+    width: 100%;
     color: white;
     background-color: #555;
     font-family: inherit;
@@ -119,9 +121,7 @@ body {
     padding: 14px;
 }
 
-.studentforeningoversikt{
-    
-}
+
     
 .faqspørsmål{
     font-size: 20px;
@@ -152,3 +152,18 @@ body {
     width: 100px;
     height: 250px;
 }
+
+
+@media only screen and (max-width: 400px) {
+    .uniformImages img {
+        width: 600px;
+        height: 500px;
+    }
+  }
+
+@media only screen and (max-width: 700px) {
+    .uniformImages img {
+        width: 400px;
+        height: 150px;
+    }
+  }
