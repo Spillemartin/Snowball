@@ -21,6 +21,7 @@ body {
     width: 100%;
     background-color: #555;
     overflow: hidden;
+    margin-bottom: 4%;
 }
 
 .navbar a {
@@ -126,7 +127,20 @@ body {
     font-size: 20px;
 }
 
+.content .box{
+    display: block;
+    float: left;
+    width: 60%;
+    margin:3%;
 }
-    margin-left: 3%;
 
+.content a img{
+    width: 40%;
+    float:left;
+    background-color: white;
+}
 
+.content p{
+    font-size: 20px;
+    text-align: center;
+}
