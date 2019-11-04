@@ -1,11 +1,12 @@
 body {
     background-color: lightgray;
     margin: 0;
+    padding: 0;
 }
 
 
 .header {
-    padding: 80px;
+    padding: 6%;
     text-align: center;
     background: #1abc9c;
     color: white;
@@ -19,7 +20,7 @@ body {
 .navbar {
     width: 100%;
     background-color: #555;
-    overflow: auto;
+    overflow: hidden;
 }
 
 .navbar a {
@@ -65,17 +66,51 @@ body {
     background-color: #f1f1f1;
     padding: 20px;
 }
+
+.btn a{
+    text-align: center;
+}
     
-.btn {
-    background-color: #555;
-    color: white;
-    padding: 12px;
+.dropdown {
+    float: left;
+    overflow: hidden;
+    width: 33.33%;
+}
+
+
+.dropdown .btn{
     font-size: 17px;
     border: none;
-    width: 100%;
-    float:left;
+    outline: none;
+    width:100%;
+    color: white;
+    background-color: #555;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .btn{
+    background-color: black;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #555;
+    min-width: 100%;
+    z-index: 1;
+}
+
+.dropdown-content a{
+    float:none;
+    color:white;
+    text-decoration: none;
+    display: block;
     text-align: center;
-    overflow: hidden;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
 }
 
 .faq{
@@ -83,9 +118,10 @@ body {
     padding: 14px;
 }
 
-.faqsvar{
 .studentforeningoversikt{
+    
 }
+    
 .faqspørsmål{
     font-size: 20px;
 }
@@ -94,39 +130,3 @@ body {
     margin-left: 3%;
 
 
-.menu {
-    position: relative;
-    display: inline-block;
-    width: 33.33%;
-    overflow: hidden;
-}
-
-.menucontent {
-    display: none;
-    position: absolute;
-    z-index: 1;
-    min-width: 100%;
-    float:left;
-    overflow: hidden;
-}
-
-.menucontent a {
-    color:white;
-    padding: 12px;
-    font-size: 17px;
-    text-decoration: none;
-    display: block;
-    float:left;
-    width: 33.33%;
-    overflow: hidden;
-}
-
-.menu:hover .menucontent {
-    display: block;
-    overflow: hidden;
-}
-
-.menu:hover .btn:hover {
-    background-color: black;
-    overflow: hidden;
-}
