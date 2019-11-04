@@ -1,5 +1,6 @@
 body {
     background-color: lightgray;
+    margin: 0;
 }
 
 
@@ -19,8 +20,6 @@ body {
     width: 100%;
     background-color: #555;
     overflow: auto;
-    /*display: flex;
-    flex-direction: row;*/
 }
 
 .navbar a {
@@ -57,9 +56,28 @@ body {
     padding: 20px;
 }
 
+.indextekst{
+    margin: 10px; 
+}
+
 .side {
     flex: 30%;
     background-color: #f1f1f1;
     padding: 20px;
 }
 
+.faq{
+    text-align: left;
+    padding: 14px;
+}
+
+.faqspørsmål{
+    font-size: 20px;
+}
+
+.faqsvar{
+    margin-left: 3%;
+}
+
+.studentforeningoversikt{
+}
