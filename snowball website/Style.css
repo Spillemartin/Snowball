@@ -60,6 +60,7 @@ body {
 
 .indextekst{
     margin: 10px; 
+    text-align: center;
 }
 
 .side {
@@ -136,12 +137,12 @@ body {
 .content .box{
     display: block;
     float: left;
-    width: 33.33%;
+    width: 44%;
     margin:3%;
 }
 
 .content a img{
-    width: 40%;
+    width: 100%;
     float:left;
     background-color: white;
 }
@@ -155,14 +156,13 @@ body {
 }
 
 .uniformImages img{
-    width: 100px;
-    height: 250px;
+    width: 250px;
 }
 
 
 @media only screen and (max-width: 400px) {
     .uniformImages img {
-        width: 600px;
+        width: 500px;
         height: 500px;
     }
   }
