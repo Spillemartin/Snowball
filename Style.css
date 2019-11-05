@@ -121,7 +121,13 @@ body {
     padding: 14px;
 }
 
+.content{
+    width:100%;
+}
 
+.content-faq{
+    width: 100%;
+}
     
 .faqspørsmål{
     font-size: 20px;
