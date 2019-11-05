@@ -120,10 +120,18 @@ body {
 .faq{
     text-align: left;
     padding: 14px;
+    margin: 5%;
+    background-color: #555;
+    color: white;
+    border-radius: 5%;
 }
 
 .content{
-    width:100%;
+    margin: 5%;
+    padding: 14px;
+    background-color: #555;
+    color: white;
+    border-radius: 5%;
 }
 
 .content-faq{
@@ -134,20 +142,20 @@ body {
     font-size: 20px;
 }
 
-.content .box{
+.content-img .box{
     display: block;
     float: left;
     width: 44%;
     margin:3%;
 }
 
-.content a img{
+.content-img a img{
     width: 100%;
     float:left;
     background-color: white;
 }
 
-.content p{
+.content-img p{
     font-size: 20px;
     text-align: center;
 }
